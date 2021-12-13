@@ -1,3 +1,3 @@
 # Eloquent_Python-Language
-Belajar bersama pemrograman Python
-Keelokan memberi semangat, melupakan penat.
+Belajar bersama pemrograman Python,
+keelokan memberi semangat, melupakan penat.
