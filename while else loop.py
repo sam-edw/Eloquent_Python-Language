@@ -1,9 +1,10 @@
 '''
-prime.py
-Jika loop sudah selesai dijalani tapi if clause tidak terjadi
-artinya tidak terjadi break sampai habis parameter loop control
-maka else clause dieksekusi,
-tetapi jika terjadi break clause else diloncati 
+Mencetak bilangan prima dalam suatu rentang.
+Contoh while-else loop yang pythonic.
+    Jika loop sudah selesai dijalani tapi if clause tidak terjadi
+    artinya tidak terjadi break sampai habis parameter loop control
+    maka else clause dieksekusi,
+    tetapi jika terjadi break maka else clause diloncati
 '''
 i = 2
 while i < 100:
