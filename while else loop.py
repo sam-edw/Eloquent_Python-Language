@@ -1,5 +1,5 @@
 '''
-Mencetak bilangan prima dalam suatu rentang.
+Mencetak bilangan prima dalam suatu rentang tertentu.
 Contoh while-else loop yang pythonic.
     Jika loop sudah selesai dijalani tapi if clause tidak terjadi
     artinya tidak terjadi break sampai habis parameter loop control
