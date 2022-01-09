@@ -55,18 +55,18 @@ def get_entry():
 
 
 def main():
-    print('Kalkulator sayur RPN')
-    rpn = Kalkulator()
+    print('Kalkulator sayur scheme notation ')
+    schm = Kalkulator()
     print("format: <operasi> <angka_A> <angka_B>")
     print('\toperasi: * / + -')
     print("\tangka: '0~9', 'E' eksponen, '.' tanda desimal, '_' jawaban sebelumnya")
     print('\tCtrl-C untuk keluar')
-    print(' =>', rpn.ans)
+    print(' =>', schm.ans)
     while True:
         operasi, angka1, angka2 = get_entry()
         try:
-            rpn.calculate(operasi, angka1, angka2)
-            print(f'{rpn.command} => {rpn.ans:,}')
+            schm.calculate(operasi, angka1, angka2)
+            print(f'{schm.command} => {schm.ans:,}')
         except Exception as e:
             print(e)
 
