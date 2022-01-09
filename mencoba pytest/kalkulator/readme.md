@@ -4,7 +4,7 @@ Pengujian dilakukan dengan pytest.
 Buat file test yang nama filenya diawali dengan test_???? dan jalankan dengan pytest pada konsol terminal.
 Contoh dalam folder ini:
 - file test_kalkulator.py
-- file kode kalkulator.py
+- file kode kalkulator.py   
 Uji secara bergantian
 - pytest
 - python kalkulator.py
